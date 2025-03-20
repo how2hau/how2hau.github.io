@@ -1,20 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-html {
-  line-height: 1.15;
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Aboreto:ital,wght@0,400;1,400');
+
+* {
+  box-sizing: border-box;
+}
+
+html,body {
   -webkit-text-size-adjust: 100%;
-  margin: 0;
   width:100%;
-  height:100%;
-    font-family: "Aboreto", system-ui;
-  font-weight: 400;
-  font-style: normal;
+  height:fit-content;
+  font-family: "Aboreto", cursive;
 }
-#div1 h1 {
+html,
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  line-height: 1;
+}
+body {
+  background-image: url('https://how2hau.carrd.co/assets/images/bg.gif');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed
+}
+.vin h1 {
 text-align:center;
+color:#376D94;
+user-select: all;
+font-weight: 400;
+font-size: 2.75em;
+width: 100%;
 }
-#div1 {
-border:#3B5275 dashed 6px;
+.vin {
+  background-color: #1d203de0;
+  height:75%;
+  min-height:fit-content;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  padding: 50px;
+
 }
-button{
-cursor:pointer;
+@media only screen and (max-width: 600px) {
+  /*
+  .vin {
+    
+  }
+*/
+}
+.d {
+  height:75%;
+  min-height:fit-content;
+  color: #376D94;
+  letter-spacing: 0.075rem;
+  width: 100%;
+  border:#3B5275 dashed 6px;
+  padding: 10px;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button {
+  text-transform: none;
+  overflow: visible;
+
+}
+img {
+  border-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img.cogGif {
+  height:120px;
+  width:auto;
+  -webkit-user-drag: none;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 0%;
+  width:max-content;
+  max-width:420px;
+  font-size: min(4vw,25px);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  scale:.7;
+}
+.instagram {
+  background: #ee227766;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE66;
+  color: white;
+}
+
+.tiktok {
+  background: #1f013066;
+  color: white;
 }
