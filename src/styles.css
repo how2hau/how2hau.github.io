@@ -127,7 +127,11 @@ img.cogGif {
 footer {
 width:100%;
 background-color:navy;
+  color:white;
 height:80px;
-font-size:15px;
+font-size:16px;
 font-family:Calibri,Tahoma,arial;
+  text-align:center;
+  padding:5px;
+margin-bottom:-2px;
 }
