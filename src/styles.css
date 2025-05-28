@@ -21,7 +21,7 @@ textarea {
   margin: 0;
   line-height: 1;
 }
-body {
+html {
   background-image: url('https://how2hau.github.io/src/bg.gif');
   background-repeat: no-repeat;
   background-size:cover;
