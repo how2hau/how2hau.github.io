@@ -25,15 +25,16 @@ html {
   background-image: url('https://how2hau.github.io/src/bg.gif');
   background-repeat: no-repeat;
   background-size:cover;
-  background-attachment:fixed
+  background-attachment:fixed;
+  overscroll-behavior: contain;
 }
 .vin h1 {
 text-align:center;
-color:#376D94;
+color:#74c3fc;
 user-select: all;
-font-weight: 400;
-font-size: 2.75em;
-width: 100%;
+font-weight: bolder;
+font-size: 2.75vw;
+width:fit-content;
 }
 .vin {
   background-color: #1d203de0;
@@ -59,7 +60,7 @@ width: 100%;
   color: #376D94;
   letter-spacing: 0.075rem;
   width: 100%;
-  border:#3B5275 dashed 2%;
+  border:#3B5275 dashed 3px;
   padding: 4%;
 }
 
